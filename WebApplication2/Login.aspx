@@ -29,13 +29,16 @@
             text-align: left;
             font-size: large;
         }
+        .auto-style8 {
+            font-size: larger;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="Header">
+        <div class="auto-style8">
 
-        </div>
+            <strong>LOGIN</strong></div>
         <table class="auto-style2">
             <tr>
                 <td class="auto-style7">Username:</td>
