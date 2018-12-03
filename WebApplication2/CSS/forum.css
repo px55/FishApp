@@ -1,0 +1,36 @@
+﻿body 
+{
+   
+}
+.div_reg
+{
+     margin:100px 250px 250px 500px;
+}
+.table
+{    
+    border-collapse:collapse; 
+}
+.table, td, th
+{    
+    border:1px solid #dddddd;
+}
+.table
+{
+    padding:10px 10px 10px 10px;
+}
+.table th
+{
+    background:#0066cc;
+    color:#fff;
+    padding:2px 2px 2px 2px;
+    text-align:center;
+}
+.table td
+{
+    margin-left:10px;   
+}
+.textbox
+{    
+    width:180px;
+    padding:2px 5px 2px 5px;
+}

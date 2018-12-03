@@ -1,0 +1,31 @@
+﻿body 
+{
+    
+}
+.div_login
+{
+    margin:250px 250px 250px 550px;
+}
+.table
+{
+    border-collapse:collapse;        
+}
+.table
+{ 
+    width:30%;
+}
+.table th
+{
+  background:#0066cc;
+  color:#fafafa;   
+}
+.table, th, td
+{
+    border:1px solid #0066cc;
+}
+.textbox
+{    
+    width:170px;
+    padding:2px 5px 2px 5px;
+}
+
