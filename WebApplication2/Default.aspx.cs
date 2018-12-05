@@ -28,7 +28,6 @@ namespace Create_Forum_Project
             {
                 username = Session["new"].ToString();
                 divwelcome.Visible = true;
-                divlogout.Visible = true;
                 div_log_reg_ribbon.Visible = false;
                 div_dashboard_box.Visible = true;
                 lblwelcom.InnerText = username.ToString();
