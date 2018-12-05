@@ -15,13 +15,10 @@
      <div id="divwelcome" runat="server" class="div_header" visible="false">
      Welcome : <label id="lblwelcom" runat="server"/>     
     </div>
-    <div id="divlogout" runat="server" class="div_logout" visible="false"><a href="forumLogin.aspx">Logout</a></div>
+    
     <div class="div_log_reg_ribbon" id="div_log_reg_ribbon" runat="server">
     <table>
-      <tr>
-        <td><a href="forumLogin.aspx">[ Login ]</a></td>
-        <td><a href="forumRegistration.aspx">[ Sign Up ]</a></td>
-       </tr>
+      
      </table>
     </div>
     </div>
@@ -38,6 +35,9 @@
       </tr>
       <tr>
        <td><a href="Home.aspx">Your Articles</a></td>
+      </tr>
+      <tr>
+       <td><a href="FishM.aspx">Back to Map</a></td>
       </tr>
          <tr>
        <td><asp:LinkButton ID="LogOut_Button" runat="server" Text="Log Out" PostBackUrl="~/Login.aspx" OnClick="LogOut_Click">

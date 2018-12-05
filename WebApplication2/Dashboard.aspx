@@ -14,7 +14,7 @@
     <div class="div_header">
      Welcome : <label id="lblwelcom" runat="server"/>     
     </div>
-    <div class="div_logout"><a href="forumLogin.aspx">Logout</a></div>
+    
       <div id="div_dashboard_box" class="div_dashboard" runat="server" visible="false">
      <table>
       <tr>
@@ -28,6 +28,9 @@
       </tr>
       <tr>
        <td><a href="Home.aspx">Your Articles</a></td>
+      </tr>
+      <tr>
+       <td><a href="FishM.aspx">Back to Map</a></td>
       </tr>
          <tr>
        <td><asp:LinkButton ID="LogOut_Button" runat="server" Text="Log Out" PostBackUrl="~/Login.aspx" OnClick="LogOut_Click">

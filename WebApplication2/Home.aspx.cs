@@ -50,16 +50,18 @@ namespace Create_Forum_Project
                     HtmlGenericControl divpost = new HtmlGenericControl("div");
                     divpost.Attributes.Add("class", "div_post_display");
                     divpost.Attributes.Add("id", id);
-                    /* Post Authro */
+                    
                     HtmlGenericControl lblauthor = new HtmlGenericControl("label");
                     lblauthor.Attributes.Add("class", "divauthor");
                     lblauthor.InnerText = "Author :" + author; ;
-                    /* Post Title (H2) */
+                    
                     HtmlGenericControl h2 = new HtmlGenericControl("h2");
                     h2.InnerText = title.ToString();
                     /* Post Message */
                     HtmlGenericControl divpostmsg = new HtmlGenericControl("div");
                     divpostmsg.Attributes.Add("class", "divpostmsg");
+
+                    //controls the length of message shown
                     //if (postmsg.Length > 50)
                     //{
                     //    divpostmsg.InnerText = postmsg.Substring(0, 50) + "....";
